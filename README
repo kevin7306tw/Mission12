@@ -1,0 +1,15 @@
+#抓回老師給的docker-compose.yml（沒辦法抓單一檔案，只好整個資料夾抓下來）
+git clone https://github.com/BingHongLi/cxcxc_db_tutorial
+
+#進入資料夾，並修改docker-compose.yml
+cd cxcxc_db_tutorial
+
+vim docker-compose.yml
+
+#啟動docker-compose
+docker-compose up -d
+
+#開啟瀏覽器，網址列輸入localhost:8080就會看到登入頁面
+#伺服器欄位改dc103，帳號輸入root，密碼：example
+#按下登入就可以進去資料庫了
+#然後建立一個dc103的資料庫，然後截圖就完成了！
